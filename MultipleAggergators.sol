@@ -42,9 +42,7 @@ contract DataConsumerV3 {
 
     constructor() {
         owner= msg.sender;
-        dataFeed = AggregatorV3Interface(
-            0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43
-        );
+
     }
 
     /**
